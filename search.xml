@@ -4,26 +4,50 @@
   
     
     <entry>
-      <title>test</title>
-      <link href="/2020/02/15/test/"/>
-      <url>/2020/02/15/test/</url>
+      <title>诡计</title>
+      <link href="/2020/02/21/gui-ji/"/>
+      <url>/2020/02/21/gui-ji/</url>
       
-        <content type="html"><![CDATA[<script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>在我的公众号公开像大家征集诗歌之后的第十个月，我终于收到了一首喜欢的诗歌，并且今天把它分享给大家。虽然满满的狗粮有些塞牙，但是我还是佩服诗人在第二段的押韵。由于这位诗人不愿意在公众号里透露姓名，所以我就跟他沟通要不要临时想个笔名，他也一时半会想不出来，这首诗全篇都在用抹香鲸这个意象，我们就叫他抹香鲸吧。</p><p><img src="/.io//moxiangjing.jpg" alt=""></p><p>诡计<br>                     –抹香鲸<br>刚刚<br>我在坐地铁来的路上<br>对面一直坐着一对母女<br>小姑娘不满意这里的嘈杂<br>躁动的挪着屁股<br>母亲用着我听不懂的语言安抚着女儿<br>我这个旁观者假装听着音乐<br>却盯着她们出了神<br>小姑娘的额头着实宽广<br>像是电视上看到过的抹香鲸<br>我依稀记得这种动物体型与额头一样庞大<br>擅长潜入深海与章鱼搏斗</p><p>我来到了你的面前<br>把这些一五一十的讲给你听<br>你说，抹香鲸（sperm whale）真是一个糟糕的隐喻<br>你识破了我的诡计<br>并质问我说，为什么不说爱你<br>我说，我喜欢收藏这个世界上每一个有趣的纹理<br>用它们来证明你是我的唯一<br>你抱怨，我说了这么多<br>也不如刚刚刮起的这阵秋风来的飒利</p><p>我第一次抱起你<br>也是第一次我们用额头夹住一片想要落下的梧桐<br>也如抹香鲸第一次<br>潜入海底</p><p>注：<br>抹香鲸的因为叫做sperm whale， sperm 也是精子的意思，whale 就是鲸鱼。<br>飒利：北方方言，一般形容人痛痛快快干脆利落。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
+      <categories>
+          
+          <category> 诗歌 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 诗歌 </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2020/02/15/hello-world/"/>
-      <url>/2020/02/15/hello-world/</url>
+      <title>在这冬夜我相信，你说的每句话都应是真的</title>
+      <link href="/2020/02/21/zai-zhe-dong-ye-wo-xiang-xin-ni-shuo-de-mei-ju-hua-du-ying-shi-zhen-de/"/>
+      <url>/2020/02/21/zai-zhe-dong-ye-wo-xiang-xin-ni-shuo-de-mei-ju-hua-du-ying-shi-zhen-de/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>我被突如其来的子弹击中<br>倒在惨白的夜色之中<br>周围的人撇了我一眼<br>却不曾有人为我摘下口罩<br>他们一边行走，一边狂欢</p><p>我抓住谎言的胳膊起身<br>他告诉我<br>这空气里的不安是一些躁动的石头<br>我只需缄默<br>等待无孔不入的阳光</p><p>我信了他的话<br>也摸到了他发热的枪管</p><p>我来到这里是为了与你在下一个街角的面包店相会<br>你已然在靠着橱窗的位置坐下<br>手里把玩着勺子，桌上放着炸鸡<br>我不想着不再欺瞒<br>便将口腔塞满了食物<br>你抬起头注视着我缓缓张开嘴</p><p>在这冬夜<br>我相信<br>你所说的每一句话都应是真的</p><p>多说几句，最近沉迷叙事诗不能自拔，但是表达的准确度好像还不够。我喜欢将多个不确定的意象杂糅并且写到一首诗里面，优点是诗歌的层次感很好。缺点则是，写作和阅读的难度都会提高。总之以后还会尝试各种风格的诗歌创作，以后有时间了也愿意写一些，诗歌意象解析的东西。</p><p>2020年的开端是一阵兵荒马乱，感受到却抓不住的东西越来越多，无论怎样还需加油才行。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
+      <categories>
+          
+          <category> 诗歌 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 诗歌 </tag>
+            
+        </tags>
       
     </entry>
     

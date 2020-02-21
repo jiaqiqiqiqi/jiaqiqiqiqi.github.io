@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jiaqiqiqiqi.github.io/"/>
-  <updated>2020-02-15T21:27:17.078Z</updated>
+  <updated>2020-02-21T21:10:17.042Z</updated>
   <id>https://jiaqiqiqiqi.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="https://jiaqiqiqiqi.github.io/2020/02/15/test/"/>
-    <id>https://jiaqiqiqiqi.github.io/2020/02/15/test/</id>
-    <published>2020-02-15T21:27:17.000Z</published>
-    <updated>2020-02-15T21:27:17.078Z</updated>
+    <title>诡计</title>
+    <link href="https://jiaqiqiqiqi.github.io/2020/02/21/gui-ji/"/>
+    <id>https://jiaqiqiqiqi.github.io/2020/02/21/gui-ji/</id>
+    <published>2020-02-21T21:07:53.000Z</published>
+    <updated>2020-02-21T21:10:17.042Z</updated>
     
     <summary type="html">
     
@@ -29,26 +29,26 @@
       
         
         
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
+          &lt;p&gt;在我的公众号公开像大家征集诗歌之后的第十个月，我终于收到了一首喜欢的诗歌，并且今天把它分享给大家。虽然满满的狗粮有些塞牙，但是我还是佩服诗人在第二段的押韵。由于这位诗人不愿意在公众号里透露姓名，所以我就跟他沟通要不要临时想个笔名，他也一时半会想不出来，这首诗全篇都在用抹香鲸
         
       
     
     </summary>
     
     
+      <category term="诗歌" scheme="https://jiaqiqiqiqi.github.io/categories/%E8%AF%97%E6%AD%8C/"/>
+    
+    
+      <category term="诗歌" scheme="https://jiaqiqiqiqi.github.io/tags/%E8%AF%97%E6%AD%8C/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://jiaqiqiqiqi.github.io/2020/02/15/hello-world/"/>
-    <id>https://jiaqiqiqiqi.github.io/2020/02/15/hello-world/</id>
-    <published>2020-02-15T21:20:46.410Z</published>
-    <updated>2020-02-15T21:20:46.410Z</updated>
+    <title>在这冬夜我相信，你说的每句话都应是真的</title>
+    <link href="https://jiaqiqiqiqi.github.io/2020/02/21/zai-zhe-dong-ye-wo-xiang-xin-ni-shuo-de-mei-ju-hua-du-ying-shi-zhen-de/"/>
+    <id>https://jiaqiqiqiqi.github.io/2020/02/21/zai-zhe-dong-ye-wo-xiang-xin-ni-shuo-de-mei-ju-hua-du-ying-shi-zhen-de/</id>
+    <published>2020-02-21T21:06:31.000Z</published>
+    <updated>2020-02-21T21:07:23.710Z</updated>
     
     <summary type="html">
     
@@ -56,13 +56,18 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;p&gt;我被突如其来的子弹击中&lt;br&gt;倒在惨白的夜色之中&lt;br&gt;周围的人撇了我一眼&lt;br&gt;却不曾有人为我摘下口罩&lt;br&gt;他们一边行走，一边狂欢&lt;/p&gt;
+&lt;p&gt;我抓住谎言的胳膊起身&lt;br&gt;他告诉我&lt;br&gt;这空气里的不安是一些躁动的石头&lt;br&gt;我只需缄默&lt;br&gt;等待无孔不入的阳光&lt;/p
         
       
     
     </summary>
     
     
+      <category term="诗歌" scheme="https://jiaqiqiqiqi.github.io/categories/%E8%AF%97%E6%AD%8C/"/>
+    
+    
+      <category term="诗歌" scheme="https://jiaqiqiqiqi.github.io/tags/%E8%AF%97%E6%AD%8C/"/>
     
   </entry>
   
