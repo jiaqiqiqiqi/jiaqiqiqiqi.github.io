@@ -250,7 +250,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #bf30ac 0%, #0f9d58 100%);
 }
 
 .text-color {
@@ -540,10 +540,11 @@ header .go-back i {
 
 /* 背景图效果. */
 .bg-cover {
-    position: relative;
+    position: fixed;
     display: flex;
     align-items: center;
-    height: 60vh;
+    height: 100vh;
+    width: 210vh
     padding: 0;
     border: 0;
     overflow: hidden;
@@ -557,7 +558,7 @@ header .go-back i {
 }
 
 .post-cover {
-    height: 40vh !important;
+    height: 100vh !important;
 }
 
 .bg-cover:after {
