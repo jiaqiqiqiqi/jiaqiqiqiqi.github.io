@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>一个人随便说</title>
   
-  
+  <subtitle>路人甲</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://jiaqiqiqiqi.github.io/"/>
