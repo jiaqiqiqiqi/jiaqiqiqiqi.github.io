@@ -310,7 +310,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('images/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -466,7 +466,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.7k
+                    1.8k
                 </div>
                 
 
@@ -490,7 +490,25 @@
 <p>单从字面上理解狗屁我不知道通不通，逻辑肯定是不通的。于是今天的第一问题是，歌词创作或者广义诗歌创作要不要逻辑通顺？<br>我的答案是：不一定。<br>举个例子：<br>关关雎鸠，在河之洲<br>窈窕淑女，君子好逑<br>谁能说这两句在逻辑上前后有什么关系？如果诗歌讲逻辑还要押韵干什么？<br>在我看来文学的从功能角度分类，可以分为叙事和抒情。叙事简单凳子就是凳子，人就是人，一件事情的发生讲个先后，说的时候分个主次。这个时候逻辑就有了用武之地，现因后果明明白白，就算是小说为了铺设悬念因果可能顺序打乱，但是好的作品逻辑一定是畅通的。<br>但是，抒情就是另外一回事了，所有表达情绪的名词都是抽象名词。比如“悲伤”，我们会发现此个词本身只是对应的某种情绪的映射，因为我们可以看见事物无法准确表达情绪，所以修辞就应运而生。比如之前我举的诗经例子，这“狗屁不通”的两句话其实就是一个经典的比兴手法的运用。类似的例子还有“春林初盛，春水初生，春风十里不如你。“——《春》冯唐。<br>诗歌理论我是真的不懂，但是平时写就会时常琢磨，所以评价一首诗你只能说它写的妙不妙，你不能说它写的通不通。情绪有了共鸣，抒情诗目的就达到了，至于高不高级，那是另外一回事。不高级和狗屁不通措辞和用法应该都有区别。<br>这世界要讲逻辑，但是，凡事都讲逻辑都讲理性，你会发现我们的很多行为和情绪根本就解释不了。比如说爱情。<br>我们表白的时候如果我们说：我爱你，因为你的笑像一条恶犬，撞乱我的心弦。好不好另说，至少这是一种对爱情的正确表达。<br>如果这么说：我爱你，因为我们条件合适，性格互补，相处也算愉快，所以综上所述我的答案是爱你。很有逻辑，但这不是爱情。你列好了爱情的公式，却在一开始就画错了坐标。<br>一生崇尚绝对理性的康德没有结婚大概就是这个原因。</p>
 <p>关于情绪和行为的事情以后再聊，还是想聊聊撕逼。金句宝典《挪威的森林》有着这样一句话：世界上只有两种人，知道自己有病的，和不知道自己有病的。<br>法国近代又个哲学家叫福科，这哥们专门研究过精神病。他的思想用我的话去理解，就是定义精神病就是多数人对少数人的一种压迫方式。听着有点费解，想想我们“敬爱”的杨永信叔叔为什么可以明目张胆的拿“十万伏特”教育我们的下一代。首先他先定义了一种精神疾病叫做网瘾，再将人分类，并且妖魔化网瘾，然后只要找到正义的理由，一切迫害都是顺理成章。</p>
 <p>细细想来，网络暴力也是这么一回事。<br>每个人潜意识都有一种力量，我们姑且叫它“平庸的恶”。这些恶来源不一，但是只要时机成熟，就有机会操控整个人的身体，我们都在等着这个时机。<br>我觉得人生核心的矛盾是“理想世界的自恰，与现实世界的复杂和多元。”爱听周杰轮的人心中的世界周杰伦就是世界上最棒的歌手，崇尚理性的人就觉得世界上所有的事情都应该有条有理，卫道士们觉得一夫一妻才是世界唯一应有的形态。面对着和自己不一样的人，他们会觉得自己想象中的世界无法自圆其说，自己的生活仿佛找不到坐标。之前就说过，一切的恐惧都源于未知。于是，因为对于未知的恐惧，我们拒绝接受未知，为了让自己生活可以自恰，我们将和自己不一样未知的人，称为异类或者神经病之类。此时“平庸的恶”就可以大展拳脚，轻则“狗屁不通”，重则“傻x去死”。网络虽然不是法外之地，但是别人也不能扒着网线找你寻仇。一吐为快，觉得自己品味高雅，优越感徒然而生，就算生活再挣扎，活在自己用“平庸的恶”守卫的“安全区”里的人还是可以维持生活，酸碱平衡。<br>为了生活，听歌必须要有“优越感”，喝水可能都有“鄙视链”。<br>也是不容易。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -827,7 +845,7 @@
                 <a href="/2018/11/10/sheng-huo-zai-lun-dun-1-jian-dan-lu-xing-jia/">
                     <div class="card-image">
                         
-                        <img src="images/9.jpg" class="responsive-img" alt="生活在伦敦（1）---简单旅行家">
+                        <img src="/images/9.jpg" class="responsive-img" alt="生活在伦敦（1）---简单旅行家">
                         
                         <span class="card-title">生活在伦敦（1）---简单旅行家</span>
                     </div>
@@ -1042,7 +1060,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">70.6k</span>&nbsp;字
+                class="white-color">71.5k</span>&nbsp;字
             
 
             <br>

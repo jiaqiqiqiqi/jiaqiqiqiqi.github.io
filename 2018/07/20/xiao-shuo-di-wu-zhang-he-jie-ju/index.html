@@ -310,7 +310,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('images/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -466,7 +466,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    5.1k
+                    5.2k
                 </div>
                 
 
@@ -496,7 +496,25 @@
 <p>飞翔是这种感觉吗，我在摸索。<br>我忽然还想更高一点。</p>
 <p>我看了一眼天空，天是灰蒙蒙没有蓝天也没有云。我想到了小时候，六岁的我在托儿所里，老师叫我们画下春天的样子，我画了青草，也画了绿树。画到蓝天的时候我犯了愁，美术本的只是白色的，我只能用蓝色的笔去画白云。于是那副画里，白白的天上飘着蓝色的云。我发现周围很多小朋友都和我一样，蓝云白天仿佛就是我们看到的世界的样子。那一瞬间我感觉如今我所处在的这个世界已经和童年时的世界不一样了，什么时候云彩变成白色的呢？也许我早死了，并不是十八岁那年我才跳楼了，我又开始怀疑我是否曾爱过一个叫小西的女孩。麻雀的声音越清脆记忆就越模糊，我是否在从五楼跳下之前不曾害怕过，除了如今眼前看到的耳朵听到的，一切都开始变的模糊起来。我的灵魂好像更轻了，似乎一阵微风我都会摆动一下，我有些害怕所谓的失魂落魄，魂飞魄散大概说的就是我吧。可是我此时立在树梢之上，随便怎样都不会落下，我想念我那有着蓝色云的童年。我可以轻易的拉着班里女孩的手，甚至可以不带脸红的对她说声喜欢你，时间刮走了云上面的色彩只剩了阶段不同的灰。<br>一切都不足挂齿，我四处打量着周遭的麻雀，想从他们的飞翔动作来琢磨如何向上漂浮，麻雀在我的灵魂周围盘旋，我追着他们的翅膀，我的灵魂开始了旋转，我发现我的灵魂开始上升了，不再与小西家的阳台齐平。我掌握了上升的技巧，便加快了旋转。</p>
 <p>我向上看，看见天空不断地旋转，一开始天空是浑圆的，且颜色是没有特色的灰。我又加快自己旋转的频率，此时这混元天空的正中心开始出现真正水彩笔上那种叫做天蓝的蓝色，期初只是一个蓝色点，后来越来越大像是蓝色的橙子一般。我有一丝兴奋觉得自己回到了六岁那年，回到了得了九十八分的简笔画之中。蓝色不再是规则的圆形，开始变成椭圆，接着变化的不在规则，像是一朵真正的蓝色的云。<br>“那朵蓝色的云后面就是天堂吗？天使是不是拿着桃子正对我笑呢。”我此时这样想到。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
             <hr/>
 
@@ -784,7 +802,7 @@
                 <a href="/2018/11/10/sheng-huo-zai-lun-dun-1-jian-dan-lu-xing-jia/">
                     <div class="card-image">
                         
-                        <img src="images/9.jpg" class="responsive-img" alt="生活在伦敦（1）---简单旅行家">
+                        <img src="/images/9.jpg" class="responsive-img" alt="生活在伦敦（1）---简单旅行家">
                         
                         <span class="card-title">生活在伦敦（1）---简单旅行家</span>
                     </div>
@@ -832,7 +850,7 @@
                 <a href="/2018/07/11/jin-qi-shi-liang-shou/">
                     <div class="card-image">
                         
-                        <img src="images/3.jpg" class="responsive-img" alt="近期诗两首">
+                        <img src="/images/3.jpg" class="responsive-img" alt="近期诗两首">
                         
                         <span class="card-title">近期诗两首</span>
                     </div>
@@ -1051,7 +1069,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">70.6k</span>&nbsp;字
+                class="white-color">71.5k</span>&nbsp;字
             
 
             <br>
