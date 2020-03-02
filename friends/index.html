@@ -564,10 +564,28 @@
 <ul>
 <li><strong>名称：</strong>jiaqiqiqiqi</li>
 <li><strong>地址：</strong><a href="https://jiaqiqiqiqi.github.io">https://jiaqiqiqiqi.github.io</a></li>
-<li><strong>简介：</strong>深思熟虑的轻</li>
-<li><strong>头像：</strong><a href="https://godweiyang.com/medias/avatar.png" target="_blank" rel="noopener">https://godweiyang.com/medias/avatar.png</a></li>
+<li><strong>简介：</strong>深思熟虑的轻，公众号【一个人随便说】</li>
+<li><strong>头像：</strong><a href="https://jiaqiqiqiqi.github.io/medias/avatar.png">https://jiaqiqiqiqi.github.io/medias/avatar.png</a></li>
 </ul>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </div>
         </div>
         <div class="card">
